@@ -6,6 +6,13 @@ body{
     background-color: rgba(0, 189, 255, 0.5);
 }
 
+body {
+	cursor: 
+		url('/pointer.png') 4 1, 
+		url('/pointer.cur') 4 1, 
+		pointer;
+}
+
 #picsBlue{
     width: 50%;
     margin-top: 2%;
