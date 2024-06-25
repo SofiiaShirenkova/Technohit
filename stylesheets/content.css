@@ -1,0 +1,77 @@
+*{ box-sizing: border-box;}
+html, body{ height: 100%;}
+
+@font-face {
+font-family: "CarlaSansLight";
+src: url("../fonts/CarlaSansLight.ttf") format("truetype");
+font-style: Light;
+font-weight: Light;
+}
+
+p{ font-family: 'CarlaSansLight'; }
+
+#backImg{
+    width: 100%;
+    height: 85%;
+}
+
+/* #sendMeToTheMoon{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#picsBlue, #picsMagenta, #picsYellow, #picsBlack{
+    width: 20%;
+}
+
+#picsBlue {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#picsMagenta{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#picsYellow {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#picsBlack {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+#sendMeToTheMoon{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#picsBlue, #picsMagenta, #picsYellow, #picsBlack{
+    width: 20%;
+}
+
+#picsBlue{
+    margin-left: 15%;
+    margin-top: 3%
+}
+
+#picsYellow{
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+#picsMagenta{
+    margin-left: 15%;
+    margin-top: 11%
+}
+
+
+#picsBlack{
+    margin-left: 65%;
+    margin-top: -20%;
+}
